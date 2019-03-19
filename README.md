@@ -5,7 +5,7 @@ This project's target is to detect drunkenness of the mobile phone owner analyzi
 Current database is situated in folders named "new_\*". Its analysis evidences that drunk gait has differences from sober gait and can be detected for some people with high accuracy.
 
 To perform analyze on your own tests you should:
-* Create a file that will contain rows "time:accel_module:accel_x:accel_y:accel_z" (see example in the database)
+* Create a file that will contain rows "time:accel_module:accel_x:accel_y:accel_z" (see example in the database). You can use android program android_app.apk to make measurements
 * Add it to project folder and its name to Main.java with number 30 for sober measurement and 80 for drunk)
 * Comment out file names in Main.java that should no be analyzed
 * Set "draw_\*" constants in Constants.java
